@@ -1,0 +1,128 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+
+body {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #fff;
+  opacity: 0.9;
+}
+
+.body_interno {
+  font-family: sans-serif;
+  width: 180mm;
+  height: 267mm;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.logo {
+  padding: 10px;
+  margin: 5px;
+}
+
+#logo_personal {
+  width: 800px;
+  height: 30px;
+  padding: 10px;
+}
+
+#logo_personal img {
+  width: 150px;
+  height: 50px;
+  float: right;
+}
+
+.formulario {
+  border-style: ridge;
+  border-color: black;
+  padding: 50px;
+  margin: 5px;
+  width: 900px;
+  height: 1238px;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+form {
+  width: 900px;
+  height: 300px;
+}
+
+#pnm_numero {
+  order: 2;
+  flex-grow: 1;
+  height: 180px;
+
+
+}
+
+#formu {
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+#fecha {
+  order: 3;
+  flex-grow: 1;
+}
+
+.right-align {
+  float: right;
+}
+
+#suscriptor {
+  order: 4;
+  height: 320px;
+}
+
+#servicio_actual {
+  order: 5;
+  height: 250px;
+}
+
+#servicio_contratar {
+  order: 6;
+  height: 110px;
+}
+
+#info_digital {
+  order: 7;
+  height: 215px;
+  padding-bottom: 30px;
+}
+
+.footer {
+  padding: 5px;
+}
+
+h5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+p label 
+{
+  justify-content: right;
+  align-items: end;
+}
+

@@ -1,0 +1,81 @@
+--CREATE DATABASE Portabilidad_BO;
+
+--USE Portabilidad_BO;
+
+--CREATE TABLE PNM (
+--    Cliente VARCHAR(100),
+--    Pin INT,
+--    ExternalCase INT,
+--    dni INT,
+--    telefono BIGINT,
+--    email VARCHAR(100),
+--    operador VARCHAR(8),
+--    mercado VARCHAR(4),
+--    tlineas_portar INT
+--);
+
+--INSERT INTO PNM (Cliente, Pin, ExternalCase, dni, telefono, email, operador, mercado, tlineas_portar)
+--VALUES
+--    ('MARTA GOMEZ', 123, 11111, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 22222, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 33333, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('CARMELI GOMEZ', 123, 44444, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('ESTEBAN LORENZP', 456, 55555, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 66666, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 77777, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 88888, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 99999, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 10001, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 10002, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 10003, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 10004, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 10005, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 10006, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 11117, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 10058, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 33342, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 11004, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 10015, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 10016, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 10017, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 10018, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 10019, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 10020, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 10021, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 10022, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 10023, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 20020, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 10024, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 10025, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 10026, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 10026, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 10027, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 10028, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 10029, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 10030, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 10031, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 10033, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 10032, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 10034, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 10035, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 10036, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 10037, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 10038, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 10039, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 10040, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 21100, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 21101, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 22002, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 22003, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 22004, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 22005, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 22006, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 33005, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 33004, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 335481, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('MARTA GOMEZ', 123, 22259, 8523652, 1154136258, 'luciamarta@gmail.com', 'CLARO', 'POS', 1),
+--    ('KARINA LUCERO', 456, 22247, 15000000, 1164153975, 'kari_luc@gmail.com', 'MOVISTAR', 'PRE', 1),
+--    ('TOMAS PERTO', 789, 33003, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+--    ('ESMERALDA TORNADO', 789, 33013, 38128823, 1115112928, 'tomi_elpotro@gmail.com', 'MOVISTAR', 'POS', 1);
+
+
